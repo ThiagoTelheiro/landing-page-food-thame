@@ -1,6 +1,7 @@
 #home {
   display: flex;
   min-height: calc(100vh - 81px);
+  position: relative;
 }
 
 #cta {
@@ -42,4 +43,57 @@
   font-weight: 500;
   box-shadow: 0 0 0.625rem 0.125rem rgb(0, 0, 0, 0.1);
   border-radius: 0.75rem;
+}
+
+#phone_button button {
+  box-shadow: none;
+}
+
+#banner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 70%;
+  z-index: 2;
+}
+
+#banner img {
+  height: 100%;
+  width: fit-content;
+}
+
+.shape {
+  background-color: #ffe8b4;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  border-radius: 40% 30% 0 20%;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 450px) {
+    #cta_buttons {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+  #home {
+    height: 100%;
+    padding-top: 0;
+  }
+
+  #cta {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  #banner,
+  #banner img,
+  #home .shape {
+    display: none;
+  }
 }

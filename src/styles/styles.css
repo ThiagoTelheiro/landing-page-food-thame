@@ -31,13 +31,25 @@ section {
   background-color: #f8d477;
 }
 
-.social-media-buttons a{
+.social-media-buttons {
+  display: flex;
+  gap: 1.125rem;
+}
+
+.social-media-buttons a {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 2.813rem;
   height: 2.5rem;
   background-color: #fff;
+  text-decoration: none;
+  border-radius: 0.625rem;
+  color: #1d1d1d;
+  box-shadow: 0 0 0.625rem 0.125rem rgb(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
-
+.social-media-buttons a:hover {
+  box-shadow: 0 0 0.625rem 0.5rem rgb(0, 0, 0, 0.1);
+}
