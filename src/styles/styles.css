@@ -9,6 +9,10 @@ body {
   background-color: #fff9ea;
 }
 
+section {
+  padding: 1.75rem 8%;
+}
+
 .btn-default {
   border: none;
   display: flex;
@@ -26,3 +30,14 @@ body {
 .btn-default:hover {
   background-color: #f8d477;
 }
+
+.social-media-buttons a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.813rem;
+  height: 2.5rem;
+  background-color: #fff;
+}
+
+
