@@ -49,12 +49,17 @@
   text-align: center;
 }
 
-.dish-rate i{
-    color: #e9a209;
+.dish-rate i {
+  color: #e9a209;
 }
 .dish-price {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.btn-default i {
+  color: #000;
 }
