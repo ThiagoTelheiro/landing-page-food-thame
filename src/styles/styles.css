@@ -53,3 +53,13 @@ section {
 .social-media-buttons a:hover {
   box-shadow: 0 0 0.625rem 0.5rem rgb(0, 0, 0, 0.1);
 }
+
+.section-title {
+  color: #e9a209;
+  font-size: 1.5rem;
+}
+
+.section-subtitle {
+  font-size: 2.187rem;
+
+}
