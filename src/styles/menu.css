@@ -63,3 +63,14 @@
 .btn-default i {
   color: #000;
 }
+
+@media screen and (max-width: 1170px) {
+  #dishes {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #dish {
+    width: calc(50% - 12px);
+  }
+}
