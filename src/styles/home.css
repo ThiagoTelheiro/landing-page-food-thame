@@ -1,6 +1,6 @@
 #home {
   display: flex;
-  min-height: calc(100vh - 81px);
+  min-height: calc(100vh - 5rem);
   position: relative;
 }
 
@@ -74,9 +74,9 @@
 }
 
 @media screen and (max-width: 450px) {
-    #cta_buttons {
-        flex-direction: column;
-    }
+  #cta_buttons {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 1170px) {

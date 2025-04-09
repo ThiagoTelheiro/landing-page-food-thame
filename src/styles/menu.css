@@ -70,7 +70,16 @@
     justify-content: center;
   }
 
-  #dish {
-    width: calc(50% - 12px);
+  .dish {
+    width: calc(50% - 0.75rem);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #menu .section-subtitle {
+    text-align: center;
+  }
+  .dish {
+    width: 100%;
   }
 }
